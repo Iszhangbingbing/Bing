@@ -15,6 +15,7 @@ public class Test {
 		String sql = "select * from Person";
 		System.out.println();
 		有叫我去修复bug
+				提交
 		ResultHandler handler = new BeanHandler(Person.class);
 		Object[] objs =  JdbcUtils.query(sql, new Object[0], handler);
 		for (Object object : objs) {
