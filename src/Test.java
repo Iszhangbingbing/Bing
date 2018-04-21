@@ -14,6 +14,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		String sql = "select * from Person";
 		System.out.println();
+		有叫我去修复bug
 		ResultHandler handler = new BeanHandler(Person.class);
 		Object[] objs =  JdbcUtils.query(sql, new Object[0], handler);
 		for (Object object : objs) {
