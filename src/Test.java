@@ -13,10 +13,8 @@ import classes.com.cn.tools.JdbcUtils;
 public class Test {
 	public static void main(String[] args) throws Exception {
 		String sql = "select * from Person";
-		System.out.println(”fix bug“);
-        有叫我去修复bug
-				难是我傻了
-				骄傲骄傲家居
+		System.out.println();
+		我回退了版本
 		ResultHandler handler = new BeanHandler(Person.class);
 		Object[] objs =  JdbcUtils.query(sql, new Object[0], handler);
 		for (Object object : objs) {
