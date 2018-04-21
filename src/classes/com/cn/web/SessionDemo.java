@@ -34,6 +34,7 @@ public class SessionDemo extends HttpServlet {
 			}
 		}
 		response.addCookie(c);
+		System.out.println("哈哈哈哈哈");
 		response.getWriter().write("go to the buycar success");
 	}
 
