@@ -13,7 +13,9 @@ import classes.com.cn.tools.JdbcUtils;
 public class Test {
 	public static void main(String[] args) throws Exception {
 		String sql = "select * from Person";
-		System.out.println(“fix bug over”);
+		System.out.println(”fix bug“);
+        有叫我去修复bug
+                提交
 		ResultHandler handler = new BeanHandler(Person.class);
 		Object[] objs =  JdbcUtils.query(sql, new Object[0], handler);
 		for (Object object : objs) {
