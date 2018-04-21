@@ -7,5 +7,7 @@ public class AccountController {
 	public void transfer(int fId,int tId,String money){
         System.out.println("what fucking1");
 	    dao.transfer(fId, tId, money);
+        Date date = new Date();
+        what;
 	}
 }
